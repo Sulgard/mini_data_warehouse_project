@@ -1,0 +1,2 @@
+CREATE DATABASE warehouse_db;
+CREATE DATABASE raw_db;

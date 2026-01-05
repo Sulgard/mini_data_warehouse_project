@@ -1,0 +1,38 @@
+# ENV
+.env
+.env.*
+env/
+*.secret
+secrets/
+
+# PYTHON
+__pycache__/
+venv/
+./venv/
+
+# DOCKER
+postgres_data/
+metabase_data/
+
+metabase.db.mv.db
+metabase.db.trace.db
+
+
+# AIRFLOW
+
+airflow/airfow.cfg
+airflow/webserver_config.py
+airflow/airflow.db
+airflow/standalone_admin_password.txt
+
+# WAREHOUSE
+data/*
+!data/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+
+# IDE
+
+.vscode/
+.idea/
+*.swp
